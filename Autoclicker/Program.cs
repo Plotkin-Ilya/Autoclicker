@@ -121,7 +121,7 @@ class Program
         Console.WriteLine("F6 = start autoclicker");
         Console.WriteLine("F7 = stop autoclicker");
         Console.WriteLine($"F8 = change delay (currently: {delay})");
-        Console.WriteLine("F9 = exit");
+        Console.WriteLine("F9, Ctrl+C = exit");
     }
 
     static void UnregisterAllHotkeys()
